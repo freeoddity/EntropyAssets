@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Authorize with Captcha</title>
+  </head>
+  <body style="margin: 0">
+    <div style="margin: 0 auto; width: 320px;">
+      <p>
+        ログインにはパズル認証が必要です。<br>
+        ピースを移動させてパズルを完成させてから<br>
+        OKボタンを押すと、ドッカンバトルが開始されます。<br>
+        ※パズルが難しい場合、画面右下のリロードボタンでパズルを変更できます。
+      </p>
+      <form name="captcha_form" method="post" action="https://entropydokkang.loca.lt/captcha/authorize"
+            style="margin: 0 auto; width: 320px; text-align: center;">
+        <script src="https://puzzleauth.captchasolutionweb.com/puzzle/get_js/?k=PUZZLE_KtcwqbFg7gDmtaizL2spkL99wRgAyM"></script>
+        <button type="submit" style="font-size: 24px; width: 140px; height: 48px; vertical-align: middle; padding: 0;"
+                onClick="disableButton(this);embedParams();document.captcha_form.submit()">OK</button>
+      </form>
+    </div>
+    <script>
+      function disableButton(button) {
+        button.disabled = true;
+        button.innerHTML = "送信中";
+      }
+      function parseParameter(key) {
+        var val = null;
+        var params = [];
+        var items = location.search.substr(1).split('&');
+
+        for (var i = 0; i < items.length; i++) {
+          params = items[i].split('=');
+          if (params[0] === key) {
+            val = decodeURIComponent(params[1]);
+          }
+        }
+        return val;
+      }
+      function createHiddenInput(name, value) {
+        input = document.createElement('input');
+        input.setAttribute('type', 'hidden');
+        input.setAttribute('name', name);
+        input.setAttribute('value', value);
+        document.forms['captcha_form'].appendChild(input);
+      }
+      function embedParams() {
+        createHiddenInput('captcha_session_key', parseParameter('captcha_session_key'));
+      }
+    </script>
+  </body>
+</html>
