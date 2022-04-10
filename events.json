@@ -1,0 +1,206 @@
+{
+    "events": [
+        {
+            "id": 712,
+            "announcement_id": 101505,
+            "event_image": "https://raw.githubusercontent.com/freeoddity/EntropyAssets/master/EventAssets/FLG/event.png",
+            "banner_image": "https://raw.githubusercontent.com/freeoddity/EntropyAssets/master/EventAssets/FLG/banner.png",
+            "minibanner_image": "https://raw.githubusercontent.com/freeoddity/EntropyAssets/master/EventAssets/FLG/minibanner.png",
+            "listbutton_image": "https://raw.githubusercontent.com/freeoddity/EntropyAssets/master/EventAssets/FLG/listbutton.png",
+            "recommend": null,
+            "lock": null,
+            "start_at": 1615781400,
+            "end_at": 1924991999,
+            "wday": [
+                "sunday",
+                "monday",
+                "tuesday",
+                "wednesday",
+                "thursday",
+                "friday",
+                "saturday"
+            ],
+            "wday_start_at": 1646453400,
+            "wday_end_at": 1646539800,
+            "quests": [
+                {
+                    "id": 712001,
+                    "name": "Fighting Legend: Goku",
+                    "visit_count_max": null,
+                    "interval_reset_visited_days": null,
+                    "limitations": [
+                        {
+                            "id": 240,
+                            "type": "QuestLimitation::ContinueQuestLimitation::CountQuestLimitation",
+                            "description": "\"Continues\" are not allowed.",
+                            "conditions": {
+                                "count_limit": 0
+                            }
+                        }
+                    ],
+                    "user_quest": {
+                        "visited_count": 0,
+                        "next_reset_at": null
+                    }
+                }
+            ]
+        },
+        {
+            "id": 741,
+            "announcement_id": 102233,
+            "event_image": "https://raw.githubusercontent.com/freeoddity/EntropyAssets/master/EventAssets/FLGT/event.png",
+            "banner_image": "https://raw.githubusercontent.com/freeoddity/EntropyAssets/master/EventAssets/FLGT/banner.png",
+            "minibanner_image": "https://raw.githubusercontent.com/freeoddity/EntropyAssets/master/EventAssets/FLGT/minibanner.png",
+            "listbutton_image": "https://raw.githubusercontent.com/freeoddity/EntropyAssets/master/EventAssets/FLGT/listbutton.png",
+            "recommend": null,
+            "lock": null,
+            "start_at": 1620455400,
+            "end_at": 1924991999,
+            "wday": [
+                "sunday",
+                "monday",
+                "tuesday",
+                "wednesday",
+                "thursday",
+                "friday",
+                "saturday"
+            ],
+            "wday_start_at": 1646461800,
+            "wday_end_at": 1646548200,
+            "quests": [
+                {
+                    "id": 741001,
+                    "name": "Fighting Legend: Goku [GT Edition]",
+                    "visit_count_max": null,
+                    "interval_reset_visited_days": null,
+                    "limitations": [
+                        {
+                            "id": 872,
+                            "type": "QuestLimitation::ContinueQuestLimitation::CountQuestLimitation",
+                            "description": "\"Continues\" are not allowed.",
+                            "conditions": {
+                                "count_limit": 0
+                            }
+                        },
+                        {
+                            "id": 873,
+                            "type": "QuestLimitation::ItemQuestLimitation::ItemCapacityQuestLimitation",
+                            "description": "Up to 2 types of Support Items are allowed.",
+                            "conditions": {
+                                "capacity": 2
+                            }
+                        }
+                    ],
+                    "user_quest": {
+                        "visited_count": 0,
+                        "next_reset_at": null
+                    }
+                }
+            ]
+        },
+        {
+            "id": 742,
+            "announcement_id": 102698,
+            "event_image": "https://raw.githubusercontent.com/freeoddity/EntropyAssets/master/EventAssets/FLV/event.png",
+            "banner_image": "https://raw.githubusercontent.com/freeoddity/EntropyAssets/master/EventAssets/FLV/banner.png",
+            "minibanner_image": "https://raw.githubusercontent.com/freeoddity/EntropyAssets/master/EventAssets/FLV/minibanner.png",
+            "listbutton_image": "https://raw.githubusercontent.com/freeoddity/EntropyAssets/master/EventAssets/FLV/listbutton.png",
+            "recommend": null,
+            "lock": null,
+            "start_at": 1641191400,
+            "end_at": 1924991999,
+            "wday": [
+                "sunday",
+                "monday",
+                "tuesday",
+                "wednesday",
+                "thursday",
+                "friday",
+                "saturday"
+            ],
+            "wday_start_at": 1646461800,
+            "wday_end_at": 1646548200,
+            "quests": [
+                {
+                    "id": 742001,
+                    "name": "Fighting Legend: Vegeta",
+                    "visit_count_max": null,
+                    "interval_reset_visited_days": null,
+                    "limitations": [
+                        {
+                            "id": 957,
+                            "type": "QuestLimitation::ContinueQuestLimitation::CountQuestLimitation",
+                            "description": "\"Continues\" are not allowed.",
+                            "conditions": {
+                                "count_limit": 0
+                            }
+                        },
+                        {
+                            "id": 981,
+                            "type": "QuestLimitation::ItemQuestLimitation::ItemCapacityQuestLimitation",
+                            "description": "Up to 2 types of Support Items are allowed.",
+                            "conditions": {
+                                "capacity": 2
+                            }
+                        }
+                    ],
+                    "user_quest": {
+                        "visited_count": 0,
+                        "next_reset_at": null
+                    }
+                }
+            ]
+        },
+        {
+            "id": 720,
+            "announcement_id": 101966,
+            "event_image": "https://raw.githubusercontent.com/freeoddity/EntropyAssets/test/EventAssets/ESBR/event.png",
+            "banner_image": "https://raw.githubusercontent.com/freeoddity/EntropyAssets/test/EventAssets/ESBR/banner.png",
+            "minibanner_image": null,
+            "listbutton_image": null,
+            "recommend": null,
+            "lock": null,
+            "start_at": 1643697000,
+            "end_at": 1924991999,
+            "wday": [
+                "sunday",
+                "monday",
+                "tuesday",
+                "wednesday",
+                "thursday",
+                "friday",
+                "saturday"
+            ],
+            "wday_start_at": 1649572200,
+            "wday_end_at": 1649658600,
+            "quests":[]
+        },
+        {
+            "id": 710,
+            "announcement_id": 100784,
+            "event_image": "https://raw.githubusercontent.com/freeoddity/EntropyAssets/test/EventAssets/SBR/event.png",
+            "banner_image": "https://raw.githubusercontent.com/freeoddity/EntropyAssets/test/EventAssets/SBR/banner.png",
+            "minibanner_image": "https://raw.githubusercontent.com/freeoddity/EntropyAssets/test/EventAssets/SBR/minibanner.png",
+            "listbutton_image": "https://raw.githubusercontent.com/freeoddity/EntropyAssets/test/EventAssets/SBR/listbutton.png",
+            "recommend": null,
+            "lock": null,
+            "start_at": 1649399400,
+            "end_at": 1924991999,
+            "wday": [
+                "sunday",
+                "monday",
+                "tuesday",
+                "wednesday",
+                "thursday",
+                "friday",
+                "saturday"
+            ],
+            "wday_start_at": 1649572200,
+            "wday_end_at": 1649658600,
+            "quests":[]
+        }
+    ],
+    "z_battle_stages": [],
+    "eventkagi_events": [],
+    "eventkagi_z_battle_stages": []
+}
