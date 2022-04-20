@@ -1,0 +1,40 @@
+[
+    {
+        "id":777,
+        "banner_name":"Super Saiyan 4 Goku & Super Saiyan 4 Vegeta Dokkan Fest",
+        "serialized":{
+            "id":777,
+            "type":"Gasha::StoneGasha",
+            "name":"Dokkan Festival",
+            "description":"{center: begin}{color : #FF9900}400 hours only!{color} Perform 3 Multi-Summons and {color : #FFFF00}get one FREE{color}!\n{color:#FFFF00}Four{color} of the featured characters can be {color : #FF3300}D{color}{color : #FF9900}o{color}{color : #FFCC00}k{color}{color : #FFFF00}k{color}{color :#33FF00}a{color}{color : #00FFCC}n{color} {color : #00BFFF}Awakened{color} into {color:#FFFF00}LR{color}!{center}",
+            "is_display_remaining_time":true,
+            "is_rate_visible":true,
+            "notification_announcement_master_id":null,
+            "end_at":1650234599,
+            "current_step":1,
+            "banner_url":"https://raw.githubusercontent.com/freeoddity/EntropyAssets/test/gashaAssets/4/Gasha_top_banner_01035.png",
+            "mypage_banner_url":null,
+            "courses":[
+                {
+                    "no":1,
+                    "title":"{color : #FF3300}D{color}{color : #FF9900}O{color}{color : #CCFF00}K{color}{color : #33FF00}K{color}{color : #00FFCC}A{color}{color : #0099FF}N{color} {color : #FFFF00}FESTIVAL{color} (A)",
+                    "description":"New SSR {color : #FFCC00}Super Saiyan Goku{color} arrives!\nRecruit a Rare or higher character with this Summon.",
+                    "currency_id":null,
+                    "price":0,
+                    "items_count":1,
+                    "drawable_count":null
+                },
+                {
+                    "no":2,
+                    "title":"{color : #FF3300}D{color}{color : #FF9900}O{color}{color : #CCFF00}K{color}{color : #33FF00}K{color}{color : #00FFCC}A{color}{color : #0099FF}N{color} {color : #FFFF00}FESTIVAL{color} (A)",
+                    "description":"New SSR {color : #FF0000}Super Saiyan 4 Goku & Super Saiyan 4 Vegeta{color} arrives!\nRecruit 10 Rare or higher characters with this Summon.",
+                    "currency_id":null,
+                    "price":0,
+                    "items_count":10,
+                    "drawable_count":null
+        
+                }
+            ]
+        }
+    }
+]
