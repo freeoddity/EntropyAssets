@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Authorize with Captcha</title>
+  </head>
+  <body style="margin: 0">
+    <div style="margin: 0 auto; width: 320px;">
+      <p>
+         Please complete
+        <br> the Puzzle Verification to log in.
+        <br> Hold and drag the piece
+        <br> to complete the puzzle,
+        <br> then tap the "OK" button to play
+        <br> Dragon Ball Z Dokkan Battle!
+        <br> * If the puzzle is too complicated,
+        <br> tap on the reload button in the
+        <br> bottom right corner to try another one.
+      </p>
+      <form name="captcha_form" method="post" action="https://entropydokkang.lt.loca/captcha/authorize"
+            style="margin: 0 auto; width: 320px; text-align: center;">
+        <script src="https://puzzleauth.captchasolutionweb.com/puzzle/get_js/?k=PUZZLE_MipeuEovNXMZmN9AsSbXQJ1MxghJnA"></script>
+        <button type="submit" style="margin: 20px auto; font-size: 24px; width: 170px; height: 48px; vertical-align: middle; padding: 0;"
+                onClick="disableButton(this);embedParams();document.captcha_form.submit()">OK</button>
+      </form>
+    </div>
+    <script>
+      function disableButton(button) {
+        button.disabled = true;
+        button.innerHTML = "Connecting";
+      }
+      function parseParameter(key) {
+        var val = null;
+        var params = [];
+        var items = location.search.substr(1).split('&');
+
+        for (var i = 0; i < items.length; i++) {
+          params = items[i].split('=');
+          if (params[0] === key) {
+            val = decodeURIComponent(params[1]);
+          }
+        }
+        return val;
+      }
+      function createHiddenInput(name, value) {
+        input = document.createElement('input');
+        input.setAttribute('type', 'hidden');
+        input.setAttribute('name', name);
+        input.setAttribute('value', value);
+        document.forms['captcha_form'].appendChild(input);
+      }
+      function embedParams() {
+        createHiddenInput('captcha_session_key', parseParameter('captcha_session_key'));
+        createHiddenInput('language', 'en');
+      }
+    </script>
+  </body>
+</html>
