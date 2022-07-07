@@ -173,7 +173,7 @@
             ],
             "wday_start_at": 1649572200,
             "wday_end_at": 1649658600,
-            "quests":[]
+            "quests": []
         },
         {
             "id": 710,
@@ -197,7 +197,169 @@
             ],
             "wday_start_at": 1649572200,
             "wday_end_at": 1649658600,
-            "quests":[]
+            "quests": []
+        },
+        {
+            "id": 770,
+            "announcement_id": 102969,
+            "event_image": "https://raw.githubusercontent.com/freeoddity/EntropyAssets/test/EventAssets/RZGT/event.png",
+            "banner_image": "https://raw.githubusercontent.com/freeoddity/EntropyAssets/test/EventAssets/RZGT/banner.png",
+            "minibanner_image": "https://raw.githubusercontent.com/freeoddity/EntropyAssets/test/EventAssets/RZGT/minibanner.png",
+            "listbutton_image": "https://raw.githubusercontent.com/freeoddity/EntropyAssets/test/EventAssets/RZGT/listbutton.png",
+            "recommend": null,
+            "lock": null,
+            "start_at": 1657152000,
+            "end_at": 2145916800,
+            "wday": [
+                "sunday",
+                "monday",
+                "tuesday",
+                "wednesday",
+                "thursday",
+                "friday",
+                "saturday"
+            ],
+            "wday_start_at": 1657152000,
+            "wday_end_at": 1657238400,
+            "quests": [
+                {
+                    "id": 770001,
+                    "name": "Vs. Ledgic",
+                    "visit_count_max": null,
+                    "interval_reset_visited_days": null,
+                    "limitations": [
+                        {
+                            "id": 1159,
+                            "type": "QuestLimitation::ContinueQuestLimitation::CountQuestLimitation",
+                            "description": "\"Continues\" are not allowed.",
+                            "conditions": {
+                                "count_limit": 0
+                            }
+                        },
+                        {
+                            "id": 1160,
+                            "type": "QuestLimitation::ItemQuestLimitation::ItemCapacityQuestLimitation",
+                            "description": "Up to 1 type of Support Item is allowed.",
+                            "conditions": {
+                                "capacity": 1
+                            }
+                        }
+                    ],
+                    "user_quest": {
+                        "visited_count": 2,
+                        "next_reset_at": 1657238399
+                    }
+                },
+                {
+                    "id": 770002,
+                    "name": "Vs. Luud",
+                    "visit_count_max": null,
+                    "interval_reset_visited_days": null,
+                    "limitations": [
+                        {
+                            "id": 1161,
+                            "type": "QuestLimitation::ContinueQuestLimitation::CountQuestLimitation",
+                            "description": "\"Continues\" are not allowed.",
+                            "conditions": {
+                                "count_limit": 0
+                            }
+                        },
+                        {
+                            "id": 1162,
+                            "type": "QuestLimitation::ItemQuestLimitation::ItemCapacityQuestLimitation",
+                            "description": "Up to 1 type of Support Item is allowed.",
+                            "conditions": {
+                                "capacity": 1
+                            }
+                        }
+                    ],
+                    "user_quest": {
+                        "visited_count": 2,
+                        "next_reset_at": 1657238399
+                    }
+                }
+            ]
+        },
+        {
+            "id": 771,
+            "announcement_id": 102970,
+            "event_image": "https://raw.githubusercontent.com/freeoddity/EntropyAssets/test/EventAssets/RZM/event.png",
+            "banner_image": "https://raw.githubusercontent.com/freeoddity/EntropyAssets/test/EventAssets/RZM/banner.png",
+            "minibanner_image": "https://raw.githubusercontent.com/freeoddity/EntropyAssets/test/EventAssets/RZM/minibanner.png",
+            "listbutton_image": "https://raw.githubusercontent.com/freeoddity/EntropyAssets/test/EventAssets/RZM/listbutton.png",
+            "recommend": null,
+            "lock": null,
+            "start_at": 1657152000,
+            "end_at": 2145916800,
+            "wday": [
+                "sunday",
+                "monday",
+                "tuesday",
+                "wednesday",
+                "thursday",
+                "friday",
+                "saturday"
+            ],
+            "wday_start_at": 1657152000,
+            "wday_end_at": 1657238400,
+            "quests": [
+                {
+                    "id": 771001,
+                    "name": "Vs. Turles",
+                    "visit_count_max": null,
+                    "interval_reset_visited_days": null,
+                    "limitations": [
+                        {
+                            "id": 1163,
+                            "type": "QuestLimitation::ContinueQuestLimitation::CountQuestLimitation",
+                            "description": "\"Continues\" are not allowed.",
+                            "conditions": {
+                                "count_limit": 0
+                            }
+                        },
+                        {
+                            "id": 1164,
+                            "type": "QuestLimitation::ItemQuestLimitation::ItemCapacityQuestLimitation",
+                            "description": "Up to 1 type of Support Item is allowed.",
+                            "conditions": {
+                                "capacity": 1
+                            }
+                        }
+                    ],
+                    "user_quest": {
+                        "visited_count": 2,
+                        "next_reset_at": 1657238399
+                    }
+                },
+                {
+                    "id": 771002,
+                    "name": "Vs. Lord Slug",
+                    "visit_count_max": null,
+                    "interval_reset_visited_days": null,
+                    "limitations": [
+                        {
+                            "id": 1165,
+                            "type": "QuestLimitation::ContinueQuestLimitation::CountQuestLimitation",
+                            "description": "\"Continues\" are not allowed.",
+                            "conditions": {
+                                "count_limit": 0
+                            }
+                        },
+                        {
+                            "id": 1166,
+                            "type": "QuestLimitation::ItemQuestLimitation::ItemCapacityQuestLimitation",
+                            "description": "Up to 1 type of Support Item is allowed.",
+                            "conditions": {
+                                "capacity": 1
+                            }
+                        }
+                    ],
+                    "user_quest": {
+                        "visited_count": 1,
+                        "next_reset_at": 1657238399
+                    }
+                }
+            ]
         }
     ],
     "z_battle_stages": [],
