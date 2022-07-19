@@ -3061,8 +3061,8 @@
                 {
                     "id": 770001,
                     "name": "Vs. Ledgic",
-                    "visit_count_max": null,
-                    "interval_reset_visited_days": null,
+                    "visit_count_max": 3,
+                    "interval_reset_visited_days": 1,
                     "limitations": [
                         {
                             "id": 1159,
@@ -3082,15 +3082,15 @@
                         }
                     ],
                     "user_quest": {
-                        "visited_count": 2,
-                        "next_reset_at": 1657238399
+                        "visited_count": 0,
+                        "next_reset_at": 1658275199
                     }
                 },
                 {
                     "id": 770002,
                     "name": "Vs. Luud",
-                    "visit_count_max": null,
-                    "interval_reset_visited_days": null,
+                    "visit_count_max": 3,
+                    "interval_reset_visited_days": 1,
                     "limitations": [
                         {
                             "id": 1161,
@@ -3110,8 +3110,64 @@
                         }
                     ],
                     "user_quest": {
-                        "visited_count": 2,
-                        "next_reset_at": 1657238399
+                        "visited_count": 0,
+                        "next_reset_at": 1658275199
+                    }
+                },
+                {
+                    "id": 770003,
+                    "name": "Vs. General Rilldo",
+                    "visit_count_max": 3,
+                    "interval_reset_visited_days": 1,
+                    "limitations": [
+                        {
+                            "id": 1167,
+                            "type": "QuestLimitation::ContinueQuestLimitation::CountQuestLimitation",
+                            "description": "\"Continues\" are not allowed.",
+                            "conditions": {
+                                "count_limit": 0
+                            }
+                        },
+                        {
+                            "id": 1168,
+                            "type": "QuestLimitation::ItemQuestLimitation::ItemCapacityQuestLimitation",
+                            "description": "Up to 1 type of Support Item is allowed.",
+                            "conditions": {
+                                "capacity": 1
+                            }
+                        }
+                    ],
+                    "user_quest": {
+                        "visited_count": 1,
+                        "next_reset_at": 1658275199
+                    }
+                },
+                {
+                    "id": 770004,
+                    "name": "Vs. Baby",
+                    "visit_count_max": 3,
+                    "interval_reset_visited_days": 1,
+                    "limitations": [
+                        {
+                            "id": 1169,
+                            "type": "QuestLimitation::ContinueQuestLimitation::CountQuestLimitation",
+                            "description": "\"Continues\" are not allowed.",
+                            "conditions": {
+                                "count_limit": 0
+                            }
+                        },
+                        {
+                            "id": 1170,
+                            "type": "QuestLimitation::ItemQuestLimitation::ItemCapacityQuestLimitation",
+                            "description": "Up to 1 type of Support Item is allowed.",
+                            "conditions": {
+                                "capacity": 1
+                            }
+                        }
+                    ],
+                    "user_quest": {
+                        "visited_count": 1,
+                        "next_reset_at": 1658275199
                     }
                 }
             ]
@@ -3142,8 +3198,8 @@
                 {
                     "id": 771001,
                     "name": "Vs. Turles",
-                    "visit_count_max": null,
-                    "interval_reset_visited_days": null,
+                    "visit_count_max": 3,
+                    "interval_reset_visited_days": 1,
                     "limitations": [
                         {
                             "id": 1163,
@@ -3163,15 +3219,15 @@
                         }
                     ],
                     "user_quest": {
-                        "visited_count": 2,
-                        "next_reset_at": 1657238399
+                        "visited_count": 0,
+                        "next_reset_at": 1658275199
                     }
                 },
                 {
                     "id": 771002,
                     "name": "Vs. Lord Slug",
-                    "visit_count_max": null,
-                    "interval_reset_visited_days": null,
+                    "visit_count_max": 3,
+                    "interval_reset_visited_days": 1,
                     "limitations": [
                         {
                             "id": 1165,
@@ -3191,8 +3247,64 @@
                         }
                     ],
                     "user_quest": {
+                        "visited_count": 0,
+                        "next_reset_at": 1658275199
+                    }
+                },
+                {
+                    "id": 771003,
+                    "name": "Vs. Cooler",
+                    "visit_count_max": 3,
+                    "interval_reset_visited_days": 1,
+                    "limitations": [
+                        {
+                            "id": 1171,
+                            "type": "QuestLimitation::ContinueQuestLimitation::CountQuestLimitation",
+                            "description": "\"Continues\" are not allowed.",
+                            "conditions": {
+                                "count_limit": 0
+                            }
+                        },
+                        {
+                            "id": 1172,
+                            "type": "QuestLimitation::ItemQuestLimitation::ItemCapacityQuestLimitation",
+                            "description": "Up to 1 type of Support Item is allowed.",
+                            "conditions": {
+                                "capacity": 1
+                            }
+                        }
+                    ],
+                    "user_quest": {
                         "visited_count": 1,
-                        "next_reset_at": 1657238399
+                        "next_reset_at": 1658275199
+                    }
+                },
+                {
+                    "id": 771004,
+                    "name": "Vs. Fusion Android #13",
+                    "visit_count_max": 3,
+                    "interval_reset_visited_days": 1,
+                    "limitations": [
+                        {
+                            "id": 1173,
+                            "type": "QuestLimitation::ContinueQuestLimitation::CountQuestLimitation",
+                            "description": "\"Continues\" are not allowed.",
+                            "conditions": {
+                                "count_limit": 0
+                            }
+                        },
+                        {
+                            "id": 1174,
+                            "type": "QuestLimitation::ItemQuestLimitation::ItemCapacityQuestLimitation",
+                            "description": "Up to 1 type of Support Item is allowed.",
+                            "conditions": {
+                                "capacity": 1
+                            }
+                        }
+                    ],
+                    "user_quest": {
+                        "visited_count": 1,
+                        "next_reset_at": 1658275199
                     }
                 }
             ]
