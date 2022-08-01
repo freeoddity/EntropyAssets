@@ -3083,7 +3083,7 @@
                     ],
                     "user_quest": {
                         "visited_count": 0,
-                        "next_reset_at": 1658275199
+                        "next_reset_at": 1659398399
                     }
                 },
                 {
@@ -3111,7 +3111,7 @@
                     ],
                     "user_quest": {
                         "visited_count": 0,
-                        "next_reset_at": 1658275199
+                        "next_reset_at": 1659398399
                     }
                 },
                 {
@@ -3138,8 +3138,8 @@
                         }
                     ],
                     "user_quest": {
-                        "visited_count": 1,
-                        "next_reset_at": 1658275199
+                        "visited_count": 0,
+                        "next_reset_at": 1659398399
                     }
                 },
                 {
@@ -3166,8 +3166,92 @@
                         }
                     ],
                     "user_quest": {
-                        "visited_count": 1,
-                        "next_reset_at": 1658275199
+                        "visited_count": 0,
+                        "next_reset_at": 1659398399
+                    }
+                },
+                {
+                    "id": 770005,
+                    "name": "Vs. Super #17",
+                    "visit_count_max": 3,
+                    "interval_reset_visited_days": 1,
+                    "limitations": [
+                        {
+                            "id": 1188,
+                            "type": "QuestLimitation::ContinueQuestLimitation::CountQuestLimitation",
+                            "description": "\"Continues\" are not allowed.",
+                            "conditions": {
+                                "count_limit": 0
+                            }
+                        },
+                        {
+                            "id": 1189,
+                            "type": "QuestLimitation::ItemQuestLimitation::ItemCapacityQuestLimitation",
+                            "description": "Up to 1 type of Support Item is allowed.",
+                            "conditions": {
+                                "capacity": 1
+                            }
+                        }
+                    ],
+                    "user_quest": {
+                        "visited_count": 0,
+                        "next_reset_at": 1659398399
+                    }
+                },
+                {
+                    "id": 770006,
+                    "name": "Vs. Shadow Dragons",
+                    "visit_count_max": 3,
+                    "interval_reset_visited_days": 1,
+                    "limitations": [
+                        {
+                            "id": 1190,
+                            "type": "QuestLimitation::ContinueQuestLimitation::CountQuestLimitation",
+                            "description": "\"Continues\" are not allowed.",
+                            "conditions": {
+                                "count_limit": 0
+                            }
+                        },
+                        {
+                            "id": 1191,
+                            "type": "QuestLimitation::ItemQuestLimitation::ItemCapacityQuestLimitation",
+                            "description": "Up to 1 type of Support Item is allowed.",
+                            "conditions": {
+                                "capacity": 1
+                            }
+                        }
+                    ],
+                    "user_quest": {
+                        "visited_count": 0,
+                        "next_reset_at": 1659398399
+                    }
+                },
+                {
+                    "id": 770007,
+                    "name": "Vs. Syn Shenron",
+                    "visit_count_max": 3,
+                    "interval_reset_visited_days": 1,
+                    "limitations": [
+                        {
+                            "id": 1192,
+                            "type": "QuestLimitation::ContinueQuestLimitation::CountQuestLimitation",
+                            "description": "\"Continues\" are not allowed.",
+                            "conditions": {
+                                "count_limit": 0
+                            }
+                        },
+                        {
+                            "id": 1193,
+                            "type": "QuestLimitation::ItemQuestLimitation::ItemCapacityQuestLimitation",
+                            "description": "Up to 1 type of Support Item is allowed.",
+                            "conditions": {
+                                "capacity": 1
+                            }
+                        }
+                    ],
+                    "user_quest": {
+                        "visited_count": 0,
+                        "next_reset_at": 1659398399
                     }
                 }
             ]
@@ -3220,7 +3304,7 @@
                     ],
                     "user_quest": {
                         "visited_count": 0,
-                        "next_reset_at": 1658275199
+                        "next_reset_at": 1659398399
                     }
                 },
                 {
@@ -3248,7 +3332,7 @@
                     ],
                     "user_quest": {
                         "visited_count": 0,
-                        "next_reset_at": 1658275199
+                        "next_reset_at": 1659398399
                     }
                 },
                 {
@@ -3275,8 +3359,8 @@
                         }
                     ],
                     "user_quest": {
-                        "visited_count": 1,
-                        "next_reset_at": 1658275199
+                        "visited_count": 0,
+                        "next_reset_at": 1659398399
                     }
                 },
                 {
@@ -3303,8 +3387,92 @@
                         }
                     ],
                     "user_quest": {
-                        "visited_count": 1,
-                        "next_reset_at": 1658275199
+                        "visited_count": 0,
+                        "next_reset_at": 1659398399
+                    }
+                },
+                {
+                    "id": 771005,
+                    "name": "Vs. Boujack",
+                    "visit_count_max": 3,
+                    "interval_reset_visited_days": 1,
+                    "limitations": [
+                        {
+                            "id": 1194,
+                            "type": "QuestLimitation::ContinueQuestLimitation::CountQuestLimitation",
+                            "description": "\"Continues\" are not allowed.",
+                            "conditions": {
+                                "count_limit": 0
+                            }
+                        },
+                        {
+                            "id": 1195,
+                            "type": "QuestLimitation::ItemQuestLimitation::ItemCapacityQuestLimitation",
+                            "description": "Up to 1 type of Support Item is allowed.",
+                            "conditions": {
+                                "capacity": 1
+                            }
+                        }
+                    ],
+                    "user_quest": {
+                        "visited_count": 0,
+                        "next_reset_at": 1659398399
+                    }
+                },
+                {
+                    "id": 771006,
+                    "name": "Vs. Janemba",
+                    "visit_count_max": 3,
+                    "interval_reset_visited_days": 1,
+                    "limitations": [
+                        {
+                            "id": 1196,
+                            "type": "QuestLimitation::ContinueQuestLimitation::CountQuestLimitation",
+                            "description": "\"Continues\" are not allowed.",
+                            "conditions": {
+                                "count_limit": 0
+                            }
+                        },
+                        {
+                            "id": 1197,
+                            "type": "QuestLimitation::ItemQuestLimitation::ItemCapacityQuestLimitation",
+                            "description": "Up to 1 type of Support Item is allowed.",
+                            "conditions": {
+                                "capacity": 1
+                            }
+                        }
+                    ],
+                    "user_quest": {
+                        "visited_count": 0,
+                        "next_reset_at": 1659398399
+                    }
+                },
+                {
+                    "id": 771007,
+                    "name": "Vs. Broly",
+                    "visit_count_max": 3,
+                    "interval_reset_visited_days": 1,
+                    "limitations": [
+                        {
+                            "id": 1198,
+                            "type": "QuestLimitation::ContinueQuestLimitation::CountQuestLimitation",
+                            "description": "\"Continues\" are not allowed.",
+                            "conditions": {
+                                "count_limit": 0
+                            }
+                        },
+                        {
+                            "id": 1199,
+                            "type": "QuestLimitation::ItemQuestLimitation::ItemCapacityQuestLimitation",
+                            "description": "Up to 1 type of Support Item is allowed.",
+                            "conditions": {
+                                "capacity": 1
+                            }
+                        }
+                    ],
+                    "user_quest": {
+                        "visited_count": 0,
+                        "next_reset_at": 1659398399
                     }
                 }
             ]
