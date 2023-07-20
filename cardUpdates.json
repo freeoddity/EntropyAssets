@@ -1,8 +1,0 @@
-[
-    {
-     "card_id": 1023911,
-     "card_uuid": 118220176,
-     "card_serial": "{\"id\": \"118220176\", \"card_id\": 1023911, \"exp\": 15000000, \"skill_lv\": 15, \"is_favorite\": true, \"awakening_route_id\": 4183, \"is_released_potential\": true, \"released_rate\": 100, \"optimal_awakening_step\": 7, \"card_decoration_id\": 300, \"exchangeable_item_id\": null, \"awakenings\": [], \"unlocked_square_statuses\": [0, 0, 0, 0], \"updated_at\": 1647514701, \"created_at\": 1647514701, \"potential_parameters\": [{\"parameter_id\": null, \"parameter_type\": \"Atk\", \"total_value\": 3240}, {\"parameter_id\": null, \"parameter_type\": \"Defense\", \"total_value\": 3000}, {\"parameter_id\": null, \"parameter_type\": \"Hp\", \"total_value\": 2760}, {\"parameter_id\": 6, \"parameter_type\": \"Skill\", \"total_value\": 15}, {\"parameter_id\": 4, \"parameter_type\": \"Skill\", \"total_value\": 10}, {\"parameter_id\": 2, \"parameter_type\": \"Skill\", \"total_value\": 14}, {\"parameter_id\": 7, \"parameter_type\": \"Skill\", \"total_value\": 15}, {\"parameter_id\": 5, \"parameter_type\": \"Skill\", \"total_value\": 10}, {\"parameter_id\": 1, \"parameter_type\": \"Skill\", \"total_value\": 12}], \"equipment_skill_items\": [{\"grade\": \"bronze\", \"slot\": 0, \"equipment_skill_item_id\": 89}, {\"grade\": \"silver\", \"slot\": 0, \"equipment_skill_item_id\": 170}, {\"grade\": \"gold\", \"slot\": 0, \"equipment_skill_item_id\": 338}], \"link_skill_lvs\": [{\"id\": 1000, \"skill_lv\": 10}, {\"id\": 57, \"skill_lv\": 10}, {\"id\": 20, \"skill_lv\": 10}, {\"id\": 4, \"skill_lv\": 10}, {\"id\": 118, \"skill_lv\": 10}, {\"id\": 29, \"skill_lv\": 10}, {\"id\": 122, \"skill_lv\": 10}]}",
-     "type": "TEQ"
-    }
-]
